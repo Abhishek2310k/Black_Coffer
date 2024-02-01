@@ -1,0 +1,16 @@
+.linear_graph-container {
+  width: 100%;
+  overflow-x: hidden; /* Hide the horizontal scrollbar */
+  margin-top: 10%;
+
+  .linear_graph {
+    white-space: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+
+    &::-webkit-scrollbar {
+      display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+    }
+  }
+}

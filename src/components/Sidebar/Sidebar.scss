@@ -1,0 +1,44 @@
+.sidebar{
+    // position: fixed;
+    border: 1px solid lightblue;
+    border-top: none;
+    border-bottom: none;
+    // width: 250px;
+    // position: fixed;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    background-color: white;
+    width: 250px;
+
+    a{
+        text-decoration: none;
+        border-radius: 10px;
+        width: 90%;
+        padding: 10px;
+        padding-left: 10%;
+        color: black;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+    }
+    .title {
+        color: rgba(28,72,99,255);
+    }
+    .item {
+        width: 90%;
+        :hover{
+            background-color: rgba(28,72,99,255);
+            color: white;
+       }
+    }
+}

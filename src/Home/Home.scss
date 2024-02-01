@@ -1,0 +1,25 @@
+.home {
+    // height: 100%;
+    display: flex;
+    position: relative;
+    // align-items: center;
+    
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        margin-left: 252px;
+        width: 100%;
+        .content {
+            width: 100%;
+        }
+        #form{
+            height: calc(100vh - 100px);
+            margin-top: 25px;
+        }
+    }
+}

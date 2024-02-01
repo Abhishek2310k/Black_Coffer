@@ -1,0 +1,105 @@
+.result {
+.filter_form{
+    display: flex;
+    flex-direction: column;
+    // padding-left: 20%;
+    width: 50%;
+    margin-left: 20%;
+    align-items: center;
+    height: calc(100vh - 75px);
+    .main_form {
+        background-color: white;
+        color: black;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        input{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            background-color: rgba(28,72,99,255);
+            border: 1px solid rgba(28,72,99,255);
+            border-radius: 20px;
+            margin-top: 10px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            padding-left: 40%;
+        }
+        a:hover{
+            color: rgba(233,78,101,255);
+        }
+    }
+    .main_form {
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;   
+        flex-direction: column;
+        gap: 20px;
+        h1{
+            padding: 0;
+            margin: 0;
+        }
+    }
+    }
+    .graphs{
+        margin-right: 20%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 500vh;
+        section{
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin-right: 10px;
+            height: 100vh;
+            display: flex;
+        flex-direction: column;
+        justify-content: start;
+        h1 {
+            padding-top: 2%;
+            font-size: 40px;
+            padding-bottom: 8%;
+            color: rgba(28,72,99,255);
+        }
+        }
+
+        .graph{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .col2 {
+                display: flex;
+                margin-top: 5%;
+                flex-direction: column;
+                margin-left: 10%;
+                align-items: center;
+                gap: 10px;
+                :hover{
+                    background-color: rgba(28,72,99,255);
+                    color: white;
+                }
+                a {
+                    // width: 8%;
+                    background-color: transparent;
+                    border: 1px solid lightgray;
+                    padding: 10px;
+                    align-content: center;
+                    border-radius: 50%;
+                    color: lightgray;
+                }
+            }
+        }
+    }
+}
